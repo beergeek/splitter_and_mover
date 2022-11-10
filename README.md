@@ -11,6 +11,7 @@ Five variables are required:
 * Global:
   - COLL_MINKEY: minimum possible value of the shard key (replaces MinKey())
   - COLL_MAXKEY: maximum possible value of the shard key (replaces MaxKey())
+  - MOVE_CHUNK_SIZE: size to split chunks into in bytes
 * Main:
   - conn_string: MongoDB connection string for sharded cluster
   - namespace: namespace of database & colelction to perform the balancing
